@@ -9,40 +9,40 @@ module.exports =
           url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/participants.json'
           cache: false
         cs:
-          url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/cs.json'
+          url: 'https://raw.github.com/OuiShare/ouisharefest-content/refactor/participants/translations/cs.json'
           cache: false
         de:
-          url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/de.json'
+          url: 'https://raw.github.com/OuiShare/ouisharefest-content/refactor/participants/translations/de.json'
           cache: false
         el:
-          url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/el.json'
+          url: 'https://raw.github.com/OuiShare/ouisharefest-content/refactor/participants/translations/el.json'
           cache: false
         en:
-          url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/en.json'
+          url: 'https://raw.github.com/OuiShare/ouisharefest-content/refactor/participants/translations/en.json'
           cache: false
         es:
-          url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/es.json'
+          url: 'https://raw.github.com/OuiShare/ouisharefest-content/refactor/participants/translations/es.json'
           cache: false
         et:
-          url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/et.json'
+          url: 'https://raw.github.com/OuiShare/ouisharefest-content/refactor/participants/translations/et.json'
           cache: false
         fi:
-          url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/fi.json'
+          url: 'https://raw.github.com/OuiShare/ouisharefest-content/refactor/participants/translations/fi.json'
           cache: false
         fr:
-          url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/fr.json'
+          url: 'https://raw.github.com/OuiShare/ouisharefest-content/refactor/participants/translations/fr.json'
           cache: false
         it:
-          url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/it.json'
+          url: 'https://raw.github.com/OuiShare/ouisharefest-content/refactor/participants/translations/it.json'
           cache: false
         nl:
-          url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/nl.json'
+          url: 'https://raw.github.com/OuiShare/ouisharefest-content/refactor/participants/translations/nl.json'
           cache: false
         pl:
-          url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/pl.json'
+          url: 'https://raw.github.com/OuiShare/ouisharefest-content/refactor/participants/translations/pl.json'
           cache: false
         pt_BR:
-          url: 'https://raw.github.com/OuiShare/ouisharefest-content/master/translations/pt_BR.json'
+          url: 'https://raw.github.com/OuiShare/ouisharefest-content/refactor/participants/translations/pt_BR.json'
           cache: false
 
   # These are variables will be accessible via our templates

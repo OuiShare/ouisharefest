@@ -63,6 +63,8 @@
         placement: 'right'
        });
 
+      $(".participate_tooltip").tooltip();
+
 			$('.location_image').tooltip();
        
       $('.dropdown-toggle').dropdown()
