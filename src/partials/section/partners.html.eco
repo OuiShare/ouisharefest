@@ -76,12 +76,6 @@
     <p>
       <%- @t.partners.invitation %>
     </p>
-		<p>
-				To become a supporter, 
-				<a href="http://weezevent.com/ouishare-fest" target="_blank">
-				click here. 
-				</a>
-		</p>
   </div>
 </div>
 <div class="partners-phone visible-phone">
@@ -100,8 +94,5 @@
     <p>
       <%- @t.partners.invitation %>
     </p>
-		<p>
-			<%- @t.partners.supporter_invitation %>
-		</p>
   </div>
 </div>
