@@ -167,6 +167,17 @@ a.dropdown-toggle span {font-size: 70%;}
 .logosmall img{
     max-width:100%;
 }
+#big_logo {
+  height:400px;
+}
+
+.home_bottom {
+  margin-top:50px;
+  text-align:center;
+}
+.videoframe iframe {
+  height:400px;
+}
 .presskitshape{
    background-color:rgba(252,238,33,1);
    width: 7em;
@@ -190,18 +201,6 @@ a.dropdown-toggle span {font-size: 70%;}
     height:252px;
     width: 140px;
     max-width:100%;
-}
-.iframe-rwd  {
-overflow: hidden;
-height:600px;
-}
-.iframe-rwd iframe {
-width: 100%;
-height: 100%;
-overflow: hidden;
-padding: 0px;
-margin: 0px; border: medium none;
-display: block;
 }
 /* =============================================================================
    CONTENT
@@ -234,13 +233,10 @@ display: block;
 .aboutframe p{
     font-size: 1.2em;
 }
-.videoframe {
-  height:500px;
-  margin-bottom:40px;
+.about_text {
+  margin-top: 100px;
 }
-.videoframe iframe {
-  width:100%;
-}
+
 
 /* =============================================================================
    TOPICS
