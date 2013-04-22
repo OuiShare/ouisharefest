@@ -4,7 +4,7 @@
 		<div class='row participate_section'>
 			<div class='span4'>
         <div class='option'>
-          <a href="<%= @data.links.share %>" target="_blank">
+          <a class='part_opt' href="<%= @data.links.share %>" target="_blank">
            <img src="http://farm9.staticflickr.com/8109/8655550965_c3090bc89d_o.jpg"/>
           </a>
           <p class='participate_text'>
@@ -14,7 +14,7 @@
 			</div>
 			<div class='span4'>
         <div class='option'>
-          <a href="<%= @data.links.awards %>" target="_blank">
+          <a class='part_opt' href="<%= @data.links.awards %>" target="_blank">
             <img src="http://farm9.staticflickr.com/8125/8655551071_493da2e914_o.jpg"/>
           </a>
           <p class='participate_text'>
@@ -24,7 +24,7 @@
 			</div>
       <div class='span4'>
         <div class='option'>
-          <a href="<%= @data.links.labs %>" target="_blank">
+          <a class='part_opt' href="<%= @data.links.labs %>" target="_blank">
             <img src="http://farm9.staticflickr.com/8115/8655550999_c98077a5af_o.jpg"/>
           </a>
           <p class='participate_text'>
@@ -36,7 +36,7 @@
     <div class='row participate_section'>
       <div class='span4'>
         <div class='option'>
-          <a href="<%= @data.links.fabjam %>" target="_blank">
+          <a class='part_opt' href="<%= @data.links.fabjam %>" target="_blank">
             <img src="http://farm9.staticflickr.com/8125/8655551039_c172d9e732_o.jpg"/>
           </a>
           <p class='participate_text'>
@@ -46,7 +46,7 @@
       </div>
       <div class='span4'>
         <div class='option'>
-          <a href="<%= @data.links.tv %>" target="_blank">
+          <a class='part_opt' href="<%= @data.links.tv %>" target="_blank">
             <img src="http://farm9.staticflickr.com/8121/8655550923_cbbea5164d_o.jpg"/>
           </a>
           <p class='participate_text'>

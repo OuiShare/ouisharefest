@@ -607,7 +607,7 @@ a.supporter_header_link {
 }
 
 .participate_section {
-		padding: 15px;
+		padding: 25px;
 		margin-bottom: 20px;
 }
 .participate .option {
@@ -615,15 +615,16 @@ a.supporter_header_link {
 	background: rgba(255,255,255,.7);
   margin-left:auto;
   margin-right:auto;
-  padding: 2%;
   width:98%;
   height:98%;
   text-align:center;
   height:350px;
+  padding-top:10px;
 }
 .option p {
   font-size: 16px;
   margin-top: 20px;
+  padding: 10px;
 }
 
 .option img {
@@ -822,6 +823,11 @@ a.supporter_header_link {
   .registerbutton{
       display:none;
   }
+  .option a.part_opt img {
+    max-width:200px;
+    min-width:200px;
+    width:200px;
+  }
 
 }
 
@@ -944,6 +950,12 @@ a.supporter_header_link {
 	}
   .teammember-item{
       margin:0;
+  }
+
+  .option a.part_opt img {
+    max-width:300px;
+    min-width:300px;
+    width:300px;
   }
   .credits{
     margin:0;;
