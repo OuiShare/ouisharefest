@@ -178,8 +178,9 @@ a.dropdown-toggle span {font-size: 70%;}
   margin-top:50px;
   text-align:center;
 }
-.videoframe iframe {
-  height:400px;
+.videoframe {
+  width: 853px;
+  margin: 0 auto;
 }
 .presskitshape{
    background-color:rgba(252,238,33,1);
