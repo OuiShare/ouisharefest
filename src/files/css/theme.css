@@ -228,6 +228,7 @@ a.dropdown-toggle span {font-size: 70%;}
 .aboutframe {
     background:rgba(255,255,255, 0.8);
     padding:2em;
+    margin-top:100px;
 }
 .aboutframe h3{
     font-size:1.8em;
@@ -236,9 +237,6 @@ a.dropdown-toggle span {font-size: 70%;}
 }
 .aboutframe p{
     font-size: 1.2em;
-}
-.about_text {
-  margin-top: 100px;
 }
 
 

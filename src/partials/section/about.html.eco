@@ -1,6 +1,5 @@
-<div class='row-fluid about_text'>
+<div class='row-fluid'>
   <div class='span8 offset2 aboutframe'>
-    <div class='row-fluid about_text'>
     <% parts = [@t.about['1'], @t.about['2']] %>
     <% for part in parts : %>
         <h3>
@@ -10,6 +9,5 @@
         <%- part.description %>
         </p>
     <% end %>
-    </div>
   </div>
 </div>
