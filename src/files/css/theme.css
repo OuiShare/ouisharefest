@@ -164,6 +164,9 @@ a.dropdown-toggle span {font-size: 70%;}
     height: 37px;
     width:210px;
 }
+#home_page_logos {
+  padding-top:8px;
+}
 .logosmall img{
     max-width:100%;
 }
@@ -186,6 +189,7 @@ a.dropdown-toggle span {font-size: 70%;}
    -moz-border-radius: 100px / 50px;
    -webkit-border-radius: 100px / 50px;
    border-radius: 100px / 50px;
+   margin-top:-8px;
 }
 .presskittext{
    padding:1em;
