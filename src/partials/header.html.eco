@@ -1,20 +1,27 @@
 <!-- HEADER -->
 <header class="header">
     <div class="row-fluid">
-      <div class='videoframe home_part'>
-          <iframe width="853" height="480" src="http://www.youtube.com/embed/On8d7oft-WU?wmode=transparent&rel=0" frameborder="0" allowfullscreen></iframe>
+      <div class='span2 offset1' id='wave''>
+          <img id='wave_img' src="/img/wave.jpg"/>
       </div>
-    </div>
-    <div class="row-fluid hidden-phone home_bottom">
-      <div class='span4 offset1 event_date'>
-        <img src='/img/horizontal_wave.png' alt='May 2-3-4 2013'/>
+      <div class='span6'>
+          <div id='switch_panel'>
+            <div id='video_cover'>
+              <img id='big_logo' src="https://trello-attachments.s3.amazonaws.com/5123fc39aba431a943005a41/5173cbe239fd3bd417000453/14caf9d96d737c6da72095e976408745/big_logo.png"/>
+            </div>
+            <div id='video'>
+              <iframe width="853" height="480" src="http://www.youtube.com/embed/On8d7oft-WU?wmode=transparent&rel=0" frameborder="0" allowfullscreen></iframe>
+            </div>
+          </div>
+        
+          <div class='play_button'>
+              <img id="red_button" src="/img/red.png"/>
+          </div>
       </div>
-      <div class="span3 offset1">
-        <div id='home_page_logos' class="logosmall">
+      <div class="span2 home_logos">
+        <div class="logosmall">
           <img src='/img/logosmall.jpg' alt="OuiShare + La Fonderie"/>
         </div>
-      </div>
-      <div class="presskit span2">
         <div class="presskitshape">
           <div class="presskittext">
             <a href="<%= @data.site.presskit_url %>">
@@ -22,7 +29,7 @@
             </a>
           </div>
         </div>
-      </div>
-    </div>
+      </div><!-- close logos and presskit -->
+    </div><!-- close row -->
 </header>
 <!--  / HEADER -->

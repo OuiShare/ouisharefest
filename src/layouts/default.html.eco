@@ -77,6 +77,14 @@
 
 			$('.location_image').tooltip();
 
+      $('#red_button').click(function() {
+          $('#wave').hide();
+          $('#video_cover').hide();
+          $('.home_logos').hide();
+          $('#video').show();
+          $(this).hide();
+      });
+
       $('.dropdown-toggle').dropdown()
 
     });

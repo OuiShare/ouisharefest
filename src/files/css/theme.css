@@ -164,24 +164,37 @@ a.dropdown-toggle span {font-size: 70%;}
     height: 37px;
     width:210px;
 }
-#home_page_logos {
-  padding-top:8px;
+.home_logos {
+  padding-top:40px;
 }
 .logosmall img{
     max-width:100%;
 }
-#big_logo {
-  height:400px;
-}
-
-.home_bottom {
-  margin-top:50px;
+#switch_panel {
   text-align:center;
 }
-.videoframe {
-  width: 853px;
-  margin: 0 auto;
-  background: url(https://trello-attachments.s3.amazonaws.com/5123fc39aba431a943005a41/5173cbe239fd3bd417000453/14caf9d96d737c6da72095e976408745/big_logo.png) no-repeat 50% 50%
+
+#video {
+  display:none;
+  margin-left:20%;
+}
+.play_button {
+  margin-top:30px;
+  text-align:center;
+  width:100%;
+}
+
+#wave {
+  padding-top:40px;
+  vertical-align:center;
+}
+#red_button {
+  opacity:.8;
+}
+
+#red_button:hover { 
+    opacity: 1;
+    cursor:pointer;
 }
 .presskitshape{
    background-color:rgba(252,238,33,1);
@@ -191,7 +204,7 @@ a.dropdown-toggle span {font-size: 70%;}
    -moz-border-radius: 100px / 50px;
    -webkit-border-radius: 100px / 50px;
    border-radius: 100px / 50px;
-   margin-top:-8px;
+   margin-top:20px;
 }
 .presskittext{
    padding:1em;
