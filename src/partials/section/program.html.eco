@@ -4,15 +4,15 @@
 			<div class='button program_button'>
 				<a href="<%= @data.links.program %>" target="_blank">
 					<h3><%= @t.program.professional_days %></h3>
-          <p><a href="http://blog.ouisharefest.com/post/48939728636/the-public-poliy-jam-sparking-conversations-about-the" target="_blank">Public Policy Jam</a></p>
 					<p><%= @t.program.thu_and_fri %> (<%= @t.program.in_en %>)</p>
+          <p><a href="http://blog.ouisharefest.com/post/48939728636/the-public-poliy-jam-sparking-conversations-about-the" target="_blank">Public Policy Jam</a></p>
 				</a>
 			</div>
 			<div class='button program_button'>
 				<a href="<%= @data.links.day3 %>" target="_blank">
 					<h3><%= @t.program.open_day %></h3>
-          <p><a href="http://4mai.ouisharefest.com/#6" target="_blank">Satellite Events</a></p>
 					<p><%= @t.program.sat %> (<%= @t.program.in_fr_and_en %>)</p>
+          <p><a href="http://4mai.ouisharefest.com/#6" target="_blank">Satellite Events</a></p>
 				</a>
 			</div>
 </div>
