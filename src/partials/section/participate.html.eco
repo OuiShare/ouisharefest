@@ -46,21 +46,21 @@
 			</div>
       <div class='span4'>
         <div class='option'>
-          <a class='part_opt' href="<%= @data.links.labs %>" target="_blank">
-            <img src="http://farm9.staticflickr.com/8115/8655550999_c98077a5af_o.jpg"/>
-          </a>
-          <p class='participate_text'>
-              <%- @t.participate.labs %>
-          </p>
-        </div>
-      </div>
-      <div class='span4'>
-        <div class='option'>
           <a class='part_opt' href="<%= @data.links.fabjam %>" target="_blank">
             <img src="http://farm9.staticflickr.com/8125/8655551039_c172d9e732_o.jpg"/>
           </a>
           <p class='participate_text'>
               <%- @t.participate.fabjam %>
+          </p>
+        </div>
+      </div>
+      <div class='span4'>
+        <div class='option'>
+          <a class='part_opt' href="<%= @data.links.labs %>" target="_blank">
+            <img src="http://farm9.staticflickr.com/8115/8655550999_c98077a5af_o.jpg"/>
+          </a>
+          <p class='participate_text'>
+              <%- @t.participate.labs %>
           </p>
         </div>
       </div>
