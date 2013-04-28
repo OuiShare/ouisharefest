@@ -4,6 +4,16 @@
 		<div class='row participate_section'>
 			<div class='span4'>
         <div class='option'>
+          <a class='part_opt' href="<%= @data.links.awards %>" target="_blank">
+            <img src="http://farm9.staticflickr.com/8125/8655551071_493da2e914_o.jpg"/>
+          </a>
+          <p class='participate_text'>
+              <%- @t.participate.awards %>
+          </p>
+        </div>
+			</div>
+			<div class='span4'>
+        <div class='option'>
           <a class='part_opt' href="<%= @data.links.live %>" target="_blank">
            <img src="http://farm8.staticflickr.com/7051/8688619166_05dbd65629_o.jpg"/>
           </a>
@@ -12,6 +22,18 @@
           </p>
         </div>
 			</div>
+      <div class='span4'>
+        <div class='option'>
+          <a class='part_opt' href="<%= @data.links.tv %>" target="_blank">
+            <img src="http://farm9.staticflickr.com/8121/8655550923_cbbea5164d_o.jpg"/>
+          </a>
+          <p class='participate_text'>
+              <%- @t.participate.tv %>
+          </p>
+        </div>
+      </div>
+    </div> <!-- close row -->
+    <div class='row participate_section'>
 			<div class='span4'>
         <div class='option'>
           <a class='part_opt' href="<%= @data.links.share %>" target="_blank">
@@ -22,18 +44,6 @@
           </p>
         </div>
 			</div>
-			<div class='span4'>
-        <div class='option'>
-          <a class='part_opt' href="<%= @data.links.awards %>" target="_blank">
-            <img src="http://farm9.staticflickr.com/8125/8655551071_493da2e914_o.jpg"/>
-          </a>
-          <p class='participate_text'>
-              <%- @t.participate.awards %>
-          </p>
-        </div>
-			</div>
-    </div> <!-- close row -->
-    <div class='row participate_section'>
       <div class='span4'>
         <div class='option'>
           <a class='part_opt' href="<%= @data.links.labs %>" target="_blank">
@@ -51,16 +61,6 @@
           </a>
           <p class='participate_text'>
               <%- @t.participate.fabjam %>
-          </p>
-        </div>
-      </div>
-      <div class='span4'>
-        <div class='option'>
-          <a class='part_opt' href="<%= @data.links.tv %>" target="_blank">
-            <img src="http://farm9.staticflickr.com/8121/8655550923_cbbea5164d_o.jpg"/>
-          </a>
-          <p class='participate_text'>
-              <%- @t.participate.tv %>
           </p>
         </div>
       </div>
