@@ -4,6 +4,16 @@
 		<div class='row participate_section'>
 			<div class='span4'>
         <div class='option'>
+          <a class='part_opt' href="<%= @data.links.live %>" target="_blank">
+           <img src="http://farm8.staticflickr.com/7051/8688619166_05dbd65629_o.jpg"/>
+          </a>
+          <p class='participate_text'>
+				    <%- @t.participate.live %>
+          </p>
+        </div>
+			</div>
+			<div class='span4'>
+        <div class='option'>
           <a class='part_opt' href="<%= @data.links.share %>" target="_blank">
            <img src="http://farm9.staticflickr.com/8109/8655550965_c3090bc89d_o.jpg"/>
           </a>
@@ -22,6 +32,8 @@
           </p>
         </div>
 			</div>
+    </div> <!-- close row -->
+    <div class='row participate_section'>
       <div class='span4'>
         <div class='option'>
           <a class='part_opt' href="<%= @data.links.labs %>" target="_blank">
@@ -32,8 +44,6 @@
           </p>
         </div>
       </div>
-    </div> <!-- close row -->
-    <div class='row participate_section'>
       <div class='span4'>
         <div class='option'>
           <a class='part_opt' href="<%= @data.links.fabjam %>" target="_blank">
