@@ -412,10 +412,7 @@ topics {
 /* =============================================================================
    PROGRAM
    ========================================================================== */
-.program{
-	padding-top:80px;
-}
-#program {
+.program {
 	background: url('../img/backgrounds/topic3.gif') no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -432,15 +429,24 @@ topics {
 	background: rgba(255,255,255,.9);
 	border-radius:15px;
 }
-.program_button {
+.program .button {
 	padding: 5px;
 	width: 40%;
 	margin:15px 10px 10px 5px;
 	display:inline-block;
-}
-.program_button a {
   text-decoration:none;
   border:none;
+  background-color: #a6a6ff;
+  text-align: center;
+  border-radius: 15px;
+	moz-box-shadow: 4px 4px 2px #e6e6ff;;
+	-webkit-box-shadow: 4px 4px 2px #e6e6ff;
+	box-shadow: 4px 4px 2px #e6e6ff;
+}
+.program .button:hover {
+	background: rgb(166,166,255);
+	background: rgba(166,166,255,.8);
+	color: #FFFFFF;
 }
 .program p {
 	margin: 5px 0px 5px 0px;
@@ -449,20 +455,7 @@ topics {
 .program h3 {
 	font-size: 1.5em;
 }
-
-.program .button {
-  background-color: #a6a6ff;
-  text-align: center;
-  border-radius: 15px;
-	moz-box-shadow: 4px 4px 2px #e6e6ff;;
-	-webkit-box-shadow: 4px 4px 2px #e6e6ff;
-	box-shadow: 4px 4px 2px #e6e6ff;
-}
-.button:hover {
-	background: rgb(166,166,255);
-	background: rgba(166,166,255,.8);
-}
-.program_button a:hover, .program_button h3:hover {
+.program .button:hover h3 {
 	color: #FFFFFF;
 }
 /* =============================================================================
