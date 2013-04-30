@@ -163,12 +163,23 @@ a.dropdown-toggle span {font-size: 70%;}
 .logosmall{
     height: 37px;
     width:210px;
+    background: url(/img/logosmall.jpg) no-repeat;
+}
+.logosmall #ouishare-link{
+  display: inline-block;
+  text-indent: -10000px;
+  width: 80px;
+  height: 37px;
+}
+.logosmall #lafonderie-link{
+  display: inline-block;
+  text-indent: -10000px;
+  width: 100px;
+  height: 37px;
+  margin-left: 25px;
 }
 .home_logos {
   padding-top:40px;
-}
-.logosmall img{
-    max-width:100%;
 }
 #switch_panel {
   text-align:center;
@@ -554,7 +565,7 @@ a.supporter_header_link {
   display:block;
   background-color: #e6e6ff;
 }
-.team a{
+.team .team-list a{
   border-bottom: none;
 }
 .team h2{

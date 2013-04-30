@@ -1,7 +1,7 @@
 <!-- HEADER -->
 <header class="header">
     <div class="row-fluid">
-      <div class='span2 offset1' id='wave''>
+      <div class='span2 offset1' id='wave'>
           <img id='wave_img' src="/img/wave.jpg"/>
       </div>
       <div class='span6'>
@@ -13,14 +13,14 @@
               <iframe width="853" height="480" src="http://www.youtube.com/embed/On8d7oft-WU?wmode=transparent&rel=0" frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
-        
           <div class='play_button'>
               <img id="red_button" src="/img/red.png"/>
           </div>
       </div>
       <div class="span2 home_logos">
         <div class="logosmall">
-          <img src='/img/logosmall.jpg' alt="OuiShare + La Fonderie"/>
+          <a id="ouishare-link" href="http://ouishare.net" target="_blank">OuiShare</a>
+          <a id="lafonderie-link" href="http://www.lafonderie-idf.fr/" target="_blank">La Fonderie</a>
         </div>
         <div class="presskitshape">
           <div class="presskittext">
